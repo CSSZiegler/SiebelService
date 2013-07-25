@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<siebelRootModel>
+    <servers>
+        <clientTransactionTimeOut></clientTransactionTimeOut>
+        <connectionPoolSize></connectionPoolSize>
+        <enableCompression>false</enableCompression>
+        <encryptionType>None</encryptionType>
+        <language>enu</language>
+        <name>SiebelServer</name>
+        <password>sadmin</password>
+        <sessionRetries></sessionRetries>
+        <transactionTimeOut></transactionTimeOut>
+        <url>23.21.131.36:2321/SBA_81/SCCObjMgr_enu</url>
+        <userName>sadmin</userName>
+    </servers>
+</siebelRootModel>

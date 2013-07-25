@@ -1,0 +1,3088 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<siebelRootModel>
+    <servers>
+        <enableCompression>false</enableCompression>
+        <name>SiebelServer</name>
+        <services>
+            <id>TimeSheetDailyHours</id>
+            <inputParams xsi:type="ns3:param" xmlns:ns3="middleware.dataobject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <accessType></accessType>
+                <format></format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>opcode</name>
+                <type>string</type>
+                <value>query</value>
+            </inputParams>
+            <inputParams xsi:type="ns3:param" xmlns:ns3="middleware.dataobject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <accessType></accessType>
+                <format></format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>bo</name>
+                <type>string</type>
+                <value>Time Sheet</value>
+            </inputParams>
+            <inputParams xsi:type="ns3:param" xmlns:ns3="middleware.dataobject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <accessType></accessType>
+                <format></format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>bc</name>
+                <type>string</type>
+                <value>Time Sheet Daily Hours</value>
+            </inputParams>
+            <inputParams xsi:type="ns3:param" xmlns:ns3="middleware.dataobject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <accessType></accessType>
+                <format></format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>sessionid</name>
+                <type>string</type>
+                <value>siebel.tcpip.none.none://23.21.131.36:2321/SBA_81/SCCObjMgr_enu/!1.1acc.2000503.51345d2b</value>
+            </inputParams>
+            <inputParams xsi:type="ns3:param" xmlns:ns3="middleware.dataobject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <accessType></accessType>
+                <format></format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>searchexpr</name>
+                <type>string</type>
+                <value></value>
+            </inputParams>
+            <inputParams xsi:type="ns3:param" xmlns:ns3="middleware.dataobject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <accessType></accessType>
+                <format></format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>sortexpr</name>
+                <type>string</type>
+                <value></value>
+            </inputParams>
+            <inputParams xsi:type="ns3:record" xmlns:ns3="middleware.dataobject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <index>-1</index>
+                <order>0</order>
+                <id>fields</id>
+                <params>
+                    <accessType>readonly</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Account</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Account Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Account Site</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Activity</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Activity Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Adjust Flag</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Adjusted Base Time Item Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Amount 1000</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Amount 1000 In Project Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billable Flag</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billable Hours</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billed</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billing Class</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billing Class Client Billable</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billing Class Holiday</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billing Class Number</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billing Date</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billing Rate Type</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billing Status Code</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Charged Flag</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Currency Code AtComplete</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Dynamic Group Number</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Elasped Time</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Elasped Time in Hours</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Elasped Time in Time</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>End Time</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Exchange Date AtComplete</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>External Comments</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Hourly Rate</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Hourly Rate Currency Code</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Hourly Rate Not Null</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Hourly Rate Not Null In Project Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Hours Adjusted Not Null</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Internal Comments</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Is InProgress</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Is Submitted Or Approved</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Item Date</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Oppty</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Oppty Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Owner Division</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Owner Division Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Owner First Name</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Owner Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Owner Last Name</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Owner Login</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Parent Time Sheet Status</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Primary Adjusted Hours</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Primary Adjustment Time Item Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Currency Code</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Currency Code Join</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Division</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Division Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Exchange Date</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Item</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Item Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Number</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Resource Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Resource Num</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Role</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Reported Billable Amount</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Reported Billable Amount In Project Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Reported Time</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Reported Time not NULL</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Service Request Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Service Request Title</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Start Time</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Submitted To Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Cost</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Price</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Daily Line Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Daily Line Period Relation Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Description</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet End Date</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Item Num</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Name</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Num</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Owner Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Period Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Period Name</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Start Date</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Status</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Submit To Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Submit To Login</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Actual Amount</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Actual Amount In Project Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Actual Hours</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Adjusted Billable Fee</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Adjusted Billable Fee In HR Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Adjusted Billable Hours</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Adjustment</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Adjustment Not Null</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Amount</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Amount In Project Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Billable Amount</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Billable Amount In Project Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Billable Hours</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Billed Amount</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Billed Amount In Project Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Billed Hours</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Utilization</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <records>
+                    <index>-1</index>
+                    <order>0</order>
+                    <id>Adjusted Billable Fee</id>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>__META__MVG</name>
+                        <type>string</type>
+                        <value>Adjustments</value>
+                    </params>
+                </records>
+                <records>
+                    <index>-1</index>
+                    <order>0</order>
+                    <id>Adjusted Billable Fee In Hourly Rate Currency</id>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>__META__MVG</name>
+                        <type>string</type>
+                        <value>Adjustments</value>
+                    </params>
+                </records>
+                <records>
+                    <index>-1</index>
+                    <order>0</order>
+                    <id>Adjusted Billable Hours</id>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>__META__MVG</name>
+                        <type>string</type>
+                        <value>Adjustments</value>
+                    </params>
+                </records>
+                <records>
+                    <index>-1</index>
+                    <order>0</order>
+                    <id>Adjusted Hours</id>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>__META__MVG</name>
+                        <type>string</type>
+                        <value>Adjustments</value>
+                    </params>
+                </records>
+            </inputParams>
+            <postProcessorName></postProcessorName>
+            <preProcessorName></preProcessorName>
+            <querySupportedFields>
+                <index>-1</index>
+                <order>0</order>
+                <id>fields</id>
+                <params>
+                    <accessType>readonly</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Account</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Account Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Account Site</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Activity</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Activity Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Adjust Flag</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Adjusted Base Time Item Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Amount 1000</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Amount 1000 In Project Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billable Flag</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billable Hours</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billed</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billing Class</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billing Class Client Billable</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billing Class Holiday</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billing Class Number</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billing Date</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billing Rate Type</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Billing Status Code</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Charged Flag</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Currency Code AtComplete</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Dynamic Group Number</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Elasped Time</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Elasped Time in Hours</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Elasped Time in Time</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>End Time</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Exchange Date AtComplete</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>External Comments</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Hourly Rate</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Hourly Rate Currency Code</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Hourly Rate Not Null</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Hourly Rate Not Null In Project Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Hours Adjusted Not Null</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Internal Comments</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Is InProgress</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Is Submitted Or Approved</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Item Date</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Oppty</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Oppty Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Owner Division</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Owner Division Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Owner First Name</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Owner Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Owner Last Name</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Owner Login</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Parent Time Sheet Status</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Primary Adjusted Hours</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Primary Adjustment Time Item Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Currency Code</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Currency Code Join</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Division</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Division Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Exchange Date</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Item</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Item Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Number</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Resource Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Resource Num</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Project Role</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Reported Billable Amount</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Reported Billable Amount In Project Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Reported Time</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Reported Time not NULL</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Service Request Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Service Request Title</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Start Time</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Submitted To Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Cost</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Price</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Daily Line Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Daily Line Period Relation Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Description</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet End Date</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Item Num</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Name</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Num</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Owner Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Period Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Period Name</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Start Date</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Status</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Submit To Id</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType></accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Time Sheet Submit To Login</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Actual Amount</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Actual Amount In Project Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Actual Hours</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Adjusted Billable Fee</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Adjusted Billable Fee In HR Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Adjusted Billable Hours</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Adjustment</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Adjustment Not Null</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Amount</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Amount In Project Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Billable Amount</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Billable Amount In Project Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Billable Hours</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Billed Amount</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Billed Amount In Project Currency</name>
+                    <type>string</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Total Billed Hours</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <params>
+                    <accessType>calculated</accessType>
+                    <format></format>
+                    <formatValue></formatValue>
+                    <jsValue></jsValue>
+                    <name>Utilization</name>
+                    <type>number</type>
+                    <value></value>
+                </params>
+                <records>
+                    <index>-1</index>
+                    <order>0</order>
+                    <id>Adjusted Billable Fee</id>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>__META__MVG</name>
+                        <type>string</type>
+                        <value>Adjustments</value>
+                    </params>
+                </records>
+                <records>
+                    <index>-1</index>
+                    <order>0</order>
+                    <id>Adjusted Billable Fee In Hourly Rate Currency</id>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>__META__MVG</name>
+                        <type>string</type>
+                        <value>Adjustments</value>
+                    </params>
+                </records>
+                <records>
+                    <index>-1</index>
+                    <order>0</order>
+                    <id>Adjusted Billable Hours</id>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>__META__MVG</name>
+                        <type>string</type>
+                        <value>Adjustments</value>
+                    </params>
+                </records>
+                <records>
+                    <index>-1</index>
+                    <order>0</order>
+                    <id>Adjusted Hours</id>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>__META__MVG</name>
+                        <type>string</type>
+                        <value>Adjustments</value>
+                    </params>
+                </records>
+            </querySupportedFields>
+            <templateOutputParams xsi:type="ns3:dataset" xmlns:ns3="middleware.dataobject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <index>-1</index>
+                <id>RETURN</id>
+                <records>
+                    <index>-1</index>
+                    <order>0</order>
+                    <id></id>
+                    <params>
+                        <accessType>readonly</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Account</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Account Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Account Site</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Activity</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Activity Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Adjust Flag</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Adjusted Base Time Item Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Amount 1000</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Amount 1000 In Project Currency</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Billable Flag</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Billable Hours</name>
+                        <type>number</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Billed</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Billing Class</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Billing Class Client Billable</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Billing Class Holiday</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Billing Class Number</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Billing Date</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Billing Rate Type</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Billing Status Code</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Charged Flag</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Currency Code AtComplete</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Dynamic Group Number</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Elasped Time</name>
+                        <type>number</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Elasped Time in Hours</name>
+                        <type>number</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Elasped Time in Time</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>End Time</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Exchange Date AtComplete</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>External Comments</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Hourly Rate</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Hourly Rate Currency Code</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Hourly Rate Not Null</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Hourly Rate Not Null In Project Currency</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Hours Adjusted Not Null</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Internal Comments</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Is InProgress</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Is Submitted Or Approved</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Item Date</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Oppty</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Oppty Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Owner Division</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Owner Division Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Owner First Name</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Owner Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Owner Last Name</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Owner Login</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Parent Time Sheet Status</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Primary Adjusted Hours</name>
+                        <type>number</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Primary Adjustment Time Item Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Project</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Project Currency Code</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Project Currency Code Join</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Project Division</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Project Division Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Project Exchange Date</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Project Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Project Item</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Project Item Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Project Number</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Project Resource Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Project Resource Num</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Project Role</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Reported Billable Amount</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Reported Billable Amount In Project Currency</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Reported Time</name>
+                        <type>number</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Reported Time not NULL</name>
+                        <type>number</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Service Request Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Service Request Title</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Start Time</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Submitted To Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Cost</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Price</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet Daily Line Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet Daily Line Period Relation Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet Description</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet End Date</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet Item Num</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet Name</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet Num</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet Owner Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet Period Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet Period Name</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet Start Date</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet Status</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet Submit To Id</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType></accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Time Sheet Submit To Login</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Actual Amount</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Actual Amount In Project Currency</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Actual Hours</name>
+                        <type>number</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Adjusted Billable Fee</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Adjusted Billable Fee In HR Currency</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Adjusted Billable Hours</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Adjustment</name>
+                        <type>number</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Adjustment Not Null</name>
+                        <type>number</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Amount</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Amount In Project Currency</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Billable Amount</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Billable Amount In Project Currency</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Billable Hours</name>
+                        <type>number</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Billed Amount</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Billed Amount In Project Currency</name>
+                        <type>string</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Total Billed Hours</name>
+                        <type>number</type>
+                        <value></value>
+                    </params>
+                    <params>
+                        <accessType>calculated</accessType>
+                        <format></format>
+                        <formatValue></formatValue>
+                        <jsValue></jsValue>
+                        <name>Utilization</name>
+                        <type>number</type>
+                        <value></value>
+                    </params>
+                    <records>
+                        <index>-1</index>
+                        <order>0</order>
+                        <id>Adjusted Billable Fee</id>
+                        <params>
+                            <accessType></accessType>
+                            <format></format>
+                            <formatValue></formatValue>
+                            <jsValue></jsValue>
+                            <name>__META__MVG</name>
+                            <type>string</type>
+                            <value>Adjustments</value>
+                        </params>
+                    </records>
+                    <records>
+                        <index>-1</index>
+                        <order>0</order>
+                        <id>Adjusted Billable Fee In Hourly Rate Currency</id>
+                        <params>
+                            <accessType></accessType>
+                            <format></format>
+                            <formatValue></formatValue>
+                            <jsValue></jsValue>
+                            <name>__META__MVG</name>
+                            <type>string</type>
+                            <value>Adjustments</value>
+                        </params>
+                    </records>
+                    <records>
+                        <index>-1</index>
+                        <order>0</order>
+                        <id>Adjusted Billable Hours</id>
+                        <params>
+                            <accessType></accessType>
+                            <format></format>
+                            <formatValue></formatValue>
+                            <jsValue></jsValue>
+                            <name>__META__MVG</name>
+                            <type>string</type>
+                            <value>Adjustments</value>
+                        </params>
+                    </records>
+                    <records>
+                        <index>-1</index>
+                        <order>0</order>
+                        <id>Adjusted Hours</id>
+                        <params>
+                            <accessType></accessType>
+                            <format></format>
+                            <formatValue></formatValue>
+                            <jsValue></jsValue>
+                            <name>__META__MVG</name>
+                            <type>string</type>
+                            <value>Adjustments</value>
+                        </params>
+                    </records>
+                </records>
+            </templateOutputParams>
+        </services>
+    </servers>
+</siebelRootModel>
