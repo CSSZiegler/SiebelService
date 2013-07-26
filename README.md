@@ -1,4 +1,4 @@
-SampleSiebelConnector
+SiebelService
 ==================
 
 Application to showcase the features of Siebel Connector
