@@ -59,7 +59,6 @@
                 <jsValue></jsValue>
                 <name>sessionid</name>
                 <type>string</type>
-                <value></value>
             </templateOutputParams>
         </services>
     </servers>

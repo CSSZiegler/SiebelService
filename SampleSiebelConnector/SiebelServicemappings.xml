@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application name="SiebelService" id="SiebelService">
+    <container type="form" id="frmActivity" displayname="Form"/>
+    <container type="form" id="frmActivityDetails" displayname="Form"/>
+    <container type="form" id="frmAppDescription" displayname="Form"/>
+    <container type="form" id="frmLogin" displayname="Form">
+        <component type="textbox2" id="txbUName" displayname="TextBox2"/>
+        <component type="textbox2" id="txbPassword" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmLoginSucces" displayname="Form"/>
+    <container type="form" id="frmActivity" displayname="Form"/>
+    <container type="form" id="frmLoginSucces" displayname="Form"/>
+    <container type="form" id="frmActivity" displayname="Form"/>
+    <container type="form" id="frmLoginSucces" displayname="Form"/>
+    <container type="form" id="frmLoginSucces" displayname="Form"/>
+    <container type="form" id="frmActivity" displayname="Form"/>
+    <container type="form" id="frmAppDescription" displayname="Form"/>
+    <container type="form" id="frmLogin" displayname="Form">
+        <component type="textbox2" id="txbUName" displayname="TextBox2"/>
+        <component type="textbox2" id="txbPassword" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmLoginSucces" displayname="Form"/>
+    <container type="form" id="frmActivity" displayname="Form"/>
+    <container type="form" id="frmAppDescription" displayname="Form"/>
+    <container type="form" id="frmLogin" displayname="Form">
+        <component type="textbox2" id="txbUName" displayname="TextBox2"/>
+        <component type="textbox2" id="txbPassword" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmLoginSucces" displayname="Form"/>
+    <globalsequences/>
+    <skins/>
+</application>

@@ -7,6 +7,7 @@ function showFrmLogin(){
 	frmLogin.show();
 }
 
+
 /*****************************************************************
 *	Name    : frmLogin_preshow
 *	Author  : Kony
@@ -16,6 +17,7 @@ function frmLogin_preshow() {
     frmLoginSucces.lblSeesionID.text = "";
     frmLoginSucces.btnTimeSheetEntries.setVisibility(false);
 }
+
 
 /*****************************************************************
 *	Name    : frmLogin_btnLoginSubmission_onClick_response
@@ -113,3 +115,4 @@ function frmLoginSucces_btnRetry(){
 	frmLogin.txbPassword.text="";
 	frmLogin.show();
 }
+
