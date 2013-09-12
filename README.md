@@ -13,14 +13,17 @@ This Application will showcase the following features of Siebel Connector
 Copy [SiebelJI_enu.jar](https://github.com/kony/SampleSiebelConnector/tree/master/Resources_Required) and [Siebel.jar](https://github.com/kony/SampleSiebelConnector/tree/master/Resources_Required) to  JDK_Installation_Path/jre/lib/ext directory.
 
 # Supported platforms:
-* iPhone
-* iPad
-* Android
-* Android tablet
-* SPA iPhone
-* SPA iPad
-* SPA Android
-* SPA Android tablet
-* DesktopWeb
-
-
+**Mobile**
+ * Android
+ * iPhone
+ * SPA Android
+ * SPA iPhone
+ 
+**Tablet** 
+ * Anroid
+ * iPad
+ * SPA iPad
+ * SPA Android
+ 
+**Desktop**
+ * DesktopWeb
