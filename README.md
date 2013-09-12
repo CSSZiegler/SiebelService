@@ -3,7 +3,6 @@ SiebelService
 
 Application to showcase the features of Siebel Connector
 
-Project Owner: Malla Nandikonda <Malla.Nandikonda@kony.com>
 
 # Purpose
 This Application will showcase the following features of Siebel Connector
@@ -14,6 +13,14 @@ This Application will showcase the following features of Siebel Connector
 Copy [SiebelJI_enu.jar](https://github.com/kony/SampleSiebelConnector/tree/master/Resources_Required) and [Siebel.jar](https://github.com/kony/SampleSiebelConnector/tree/master/Resources_Required) to  JDK_Installation_Path/jre/lib/ext directory.
 
 # Supported platforms:
-iPhone, iPad, Android, Android tablet, SPA iPhone, SPA iPad, SPA Android, SPA Android tablet and DesktopWeb
+* iPhone
+* iPad
+* Android
+* Android tablet
+* SPA iPhone
+* SPA iPad
+* SPA Android
+* SPA Android tablet
+* DesktopWeb
 
 
