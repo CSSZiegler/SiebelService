@@ -20,7 +20,7 @@ Copy [SiebelJI_enu.jar](https://github.com/kony/SampleSiebelConnector/tree/maste
  * SPA iPhone
  
 **Tablet** 
- * Anroid
+ * Android
  * iPad
  * SPA iPad
  * SPA Android
