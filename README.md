@@ -14,6 +14,7 @@ This Application will showcase the following features of Siebel Connector
 **Mobile**
  * Android
  * iPhone
+ * BlackBerry
  * SPA Android
  * SPA iPhone
  

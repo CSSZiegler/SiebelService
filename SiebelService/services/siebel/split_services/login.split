@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<siebelRootModel>
+    <servers>
+        <enableCompression>false</enableCompression>
+        <name>SiebelServer</name>
+        <services>
+            <id>login</id>
+            <inputParams xsi:type="ns3:param" xmlns:ns3="middleware.dataobject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <accessType></accessType>
+                <format></format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>opcode</name>
+                <type>string</type>
+                <value>login</value>
+            </inputParams>
+            <inputParams xsi:type="ns3:param" xmlns:ns3="middleware.dataobject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <accessType></accessType>
+                <format></format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>url</name>
+                <type>string</type>
+                <value>siebel.tcpip.none.none://23.21.131.36:2321/SBA_81/SCCObjMgr_enu</value>
+            </inputParams>
+            <inputParams xsi:type="ns3:param" xmlns:ns3="middleware.dataobject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <accessType></accessType>
+                <format></format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>username</name>
+                <type>string</type>
+                <value>sadmin</value>
+            </inputParams>
+            <inputParams xsi:type="ns3:param" xmlns:ns3="middleware.dataobject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <accessType></accessType>
+                <format></format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>password</name>
+                <type>string</type>
+                <value>sadmin</value>
+            </inputParams>
+            <inputParams xsi:type="ns3:param" xmlns:ns3="middleware.dataobject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <accessType></accessType>
+                <format></format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>language</name>
+                <type>string</type>
+                <value>enu</value>
+            </inputParams>
+            <postProcessorName></postProcessorName>
+            <preProcessorName></preProcessorName>
+            <templateOutputParams xsi:type="ns3:param" xmlns:ns3="middleware.dataobject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <accessType></accessType>
+                <format></format>
+                <formatValue></formatValue>
+                <jsValue></jsValue>
+                <name>sessionid</name>
+                <type>string</type>
+            </templateOutputParams>
+        </services>
+    </servers>
+</siebelRootModel>
