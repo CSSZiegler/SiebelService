@@ -1,6 +1,0 @@
-<application desc="" id="siebel" name="" smscode="">
-   <app-config>
-      <config-param name="APP_SMS_HEADER" value="null"/>
-   </app-config>
-   <services/>
-</application>
