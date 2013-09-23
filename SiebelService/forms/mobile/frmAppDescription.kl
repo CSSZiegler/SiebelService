@@ -2291,9 +2291,9 @@
                     <winmobile>
                         <left>0</left>
                         <right>0</right>
-                        <top>13</top>
+                        <top>5</top>
                         <bottom>0</bottom>
-                        <unit>px</unit>
+                        <unit>%</unit>
                     </winmobile>
                     <winmobile6x>
                         <left>0</left>
@@ -2307,9 +2307,9 @@
                     <winphone8>
                         <left>0</left>
                         <right>0</right>
-                        <top>13</top>
+                        <top>5</top>
                         <bottom>0</bottom>
-                        <unit>px</unit>
+                        <unit>%</unit>
                     </winphone8>
                     <winphone8_override>true</winphone8_override>
                     <xhtmlAdvBB>
@@ -4294,9 +4294,9 @@
                     <winmobile>
                         <left>0</left>
                         <right>0</right>
-                        <top>13</top>
+                        <top>5</top>
                         <bottom>0</bottom>
-                        <unit>px</unit>
+                        <unit>%</unit>
                     </winmobile>
                     <winmobile6x>
                         <left>0</left>
@@ -4310,9 +4310,9 @@
                     <winphone8>
                         <left>0</left>
                         <right>0</right>
-                        <top>13</top>
+                        <top>5</top>
                         <bottom>0</bottom>
-                        <unit>px</unit>
+                        <unit>%</unit>
                     </winphone8>
                     <winphone8_override>true</winphone8_override>
                     <xhtmlAdvBB>
@@ -5636,11 +5636,11 @@
                 </windows8>
                 <windows8_override>true</windows8_override>
                 <winmobile>
-                    <left>12</left>
-                    <right>12</right>
-                    <top>35</top>
-                    <bottom>12</bottom>
-                    <unit>px</unit>
+                    <left>4</left>
+                    <right>4</right>
+                    <top>10</top>
+                    <bottom>4</bottom>
+                    <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>1</left>
@@ -5652,11 +5652,11 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>12</left>
-                    <right>12</right>
-                    <top>35</top>
-                    <bottom>12</bottom>
-                    <unit>px</unit>
+                    <left>4</left>
+                    <right>4</right>
+                    <top>10</top>
+                    <bottom>4</bottom>
+                    <unit>%</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
@@ -6172,9 +6172,9 @@
                 <rc_palm>false</rc_palm>
                 <rc_symbian>false</rc_symbian>
                 <rc_windows8>true</rc_windows8>
-                <rc_winmobile>false</rc_winmobile>
+                <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>false</rc_winphone8>
+                <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -6993,11 +6993,11 @@
                     </windows8>
                     <windows8_override>true</windows8_override>
                     <winmobile>
-                        <left>0</left>
+                        <left>4</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
-                        <unit>px</unit>
+                        <unit>%</unit>
                     </winmobile>
                     <winmobile6x>
                         <left>1</left>
@@ -7009,11 +7009,11 @@
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>0</left>
+                        <left>4</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
-                        <unit>px</unit>
+                        <unit>%</unit>
                     </winphone8>
                     <winphone8_override>true</winphone8_override>
                     <xhtmlAdvBB>
@@ -7390,6 +7390,8 @@
                 <parent_wrapping>word</parent_wrapping>
                 <parent_longText>false</parent_longText>
                 <parent_renderAsAnchor>false</parent_renderAsAnchor>
+                <overrideProperties>KLabel.winmobileContentAlign</overrideProperties>
+                <overrideProperties>KLabel.winphone8_contentalign</overrideProperties>
                 <iphone_wrapping>0</iphone_wrapping>
                 <iphone_contentAlignment>0</iphone_contentAlignment>
                 <iphone_longtext>false</iphone_longtext>

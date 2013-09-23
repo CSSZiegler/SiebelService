@@ -4806,7 +4806,7 @@
             <iphone_fixed_height>false</iphone_fixed_height>
             <iphone_req_parallel_exec>false</iphone_req_parallel_exec>
             <iphone_option>0</iphone_option>
-            <contentAlign>0</contentAlign>
+            <contentAlign>4</contentAlign>
             <ipad_option>0</ipad_option>
             <ipad_fixed_height>false</ipad_fixed_height>
             <bb_position>0</bb_position>
@@ -5471,7 +5471,7 @@
                 <tc_renderAsanchor>false</tc_renderAsanchor>
                 <tc_content_align>0</tc_content_align>
                 <spa_renderAsAnchor>false</spa_renderAsAnchor>
-                <spa_contentAlignment>0</spa_contentAlignment>
+                <spa_contentAlignment>4</spa_contentAlignment>
                 <pb_renderAsAnchor>false</pb_renderAsAnchor>
                 <pb_contentAlignment>0</pb_contentAlignment>
                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
