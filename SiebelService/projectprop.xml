@@ -2,7 +2,7 @@
     <attributes name="applogokey" value="0=konyap.png"/>
     <attributes name="androidmapkey2" value=""/>
     <attributes name="ACCESS_WIFI_STATE" value="false"/>
-    <attributes name="mwaddrkey" value="localhost"/>
+    <attributes name="mwaddrkey" value=""/>
     <attributes name="portkey" value=""/>
     <attributes name="INTERNAL_SYSTEM_WINDOW" value="false"/>
     <attributes name="WRITE_SETTINGS" value="false"/>
@@ -81,7 +81,7 @@
     <attributes name="MANAGE_ACCOUNTS" value="false"/>
     <attributes name="androidscreenanydensity" value="true"/>
     <attributes name="win8badgelogokey" value=""/>
-    <attributes name="mwportkey" value="8080"/>
+    <attributes name="mwportkey" value=""/>
     <attributes name="win8certificatekey" value=""/>
     <attributes name="BRICK" value="false"/>
     <attributes name="ID_CAP_APPOINTMENTS" value="true"/>
@@ -269,7 +269,7 @@
     <attributes name="pasteboardtype" value="systemlevel"/>
     <attributes name="tcandroid400basefontsize" value="14"/>
     <attributes name="androidscreenresizeable" value="false"/>
-    <attributes name="svcusedefault" value="true"/>
+    <attributes name="svcusedefault" value="false"/>
     <attributes name="tcandroid440basefontsize" value="15"/>
     <attributes name="CHANGE_NETWORK_STATE" value="false"/>
     <attributes name="desktopwebaligenmentoption" value="left"/>
@@ -378,11 +378,11 @@
     <attributes name="WP8_ID_CAP_WALLET" value="true"/>
     <attributes name="WP8_ID_CAP_WEBBROWSERCOMPONENT" value="true"/>
     <attributes name="ID_CAP_CAMERA" value="false"/>
-    <attributes name="svcaddrkey" value="localhost"/>
+    <attributes name="svcaddrkey" value="14.99.126.211"/>
     <attributes name="spaandroidtab1024basefontsize" value="16"/>
     <attributes name="SIGNAL_PERSISTENT_PROCESSES" value="false"/>
     <attributes name="tcbb240basefontsize" value="12"/>
-    <attributes name="wp8displaynamekey" value="SampleSiebelConnector"/>
+    <attributes name="wp8displaynamekey" value="SiebelService"/>
     <attributes name="spawindows480basefontsize" value="12"/>
     <attributes name="wp8cycle9key" value=""/>
     <attributes name="MOUNT_UNMOUNT_FILESYSTEMS" value="false"/>
