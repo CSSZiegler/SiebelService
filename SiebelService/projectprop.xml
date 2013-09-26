@@ -205,7 +205,7 @@
     <attributes name="tcphoneformatindicator" value="false"/>
     <attributes name="Location" value="true"/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
-    <attributes name="currentgaversion" value="5.5.21.QA_v201309171246"/>
+    <attributes name="currentgaversion" value="5.5.24.QA_v201309231046"/>
     <attributes name="mwhttpsportkey" value=""/>
     <attributes name="pathkey" value=""/>
     <attributes name="vendornamekey" value="KonyLabs"/>
@@ -269,7 +269,7 @@
     <attributes name="pasteboardtype" value="systemlevel"/>
     <attributes name="tcandroid400basefontsize" value="14"/>
     <attributes name="androidscreenresizeable" value="false"/>
-    <attributes name="svcusedefault" value="false"/>
+    <attributes name="svcusedefault" value="true"/>
     <attributes name="tcandroid440basefontsize" value="15"/>
     <attributes name="CHANGE_NETWORK_STATE" value="false"/>
     <attributes name="desktopwebaligenmentoption" value="left"/>
@@ -346,8 +346,8 @@
     <attributes name="win8smalllogokey" value=""/>
     <attributes name="SET_DEBUG_APP" value="false"/>
     <attributes name="tcandroid240basefontsize" value="10"/>
-    <attributes name="CHANGE_COMPONENT_ENABLED_STATE" value="false"/>
     <attributes name="win8versionbuildkey" value="0"/>
+    <attributes name="CHANGE_COMPONENT_ENABLED_STATE" value="false"/>
     <attributes name="WP8_ID_CAP_MEDIALIB_AUDIO" value="true"/>
     <attributes name="access_pimdomain_messages" value="false"/>
     <attributes name="supportmarginpixelindip" value="true"/>
@@ -376,9 +376,9 @@
     <attributes name="SET_ACTIVITY_WATCHER" value="false"/>
     <attributes name="tcnth320basefontsize" value="15"/>
     <attributes name="WP8_ID_CAP_WALLET" value="true"/>
+    <attributes name="svcaddrkey" value="169.254.80.80"/>
     <attributes name="WP8_ID_CAP_WEBBROWSERCOMPONENT" value="true"/>
     <attributes name="ID_CAP_CAMERA" value="false"/>
-    <attributes name="svcaddrkey" value="14.99.126.211"/>
     <attributes name="spaandroidtab1024basefontsize" value="16"/>
     <attributes name="SIGNAL_PERSISTENT_PROCESSES" value="false"/>
     <attributes name="tcbb240basefontsize" value="12"/>

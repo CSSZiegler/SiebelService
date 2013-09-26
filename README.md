@@ -19,6 +19,7 @@ This Application will showcase the following features of Siebel Connector
  * Windows Phone 8
  * SPA Android
  * SPA iPhone
+ * SPA BlackBerry
  
 **Tablet** 
  * Android
