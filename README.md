@@ -24,7 +24,7 @@ This Application will showcase the following features of Siebel Connector
 **Tablet** 
  * Android
  * iPad
- * Windows *
+ * Windows 8
  * SPA iPad
  * SPA Android
  
