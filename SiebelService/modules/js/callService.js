@@ -207,7 +207,7 @@ function frmActivity_preshow_Tablet() {
 * 			  that set sessionID to lblSeesionID and nevigate to frmLoginSucces.
 *****************************************************************/
 function frmLogin_btnLoginSubmission_onClick_response_Tablet(status, login) {
-	kony.print(status);
+	kony.print("************"+status+"*****************");
     if (status == 400) {
     		if(login.sessionid == " " || login.sessionid == null)
     		{

@@ -2317,8 +2317,8 @@
                 <type>1</type>
                 <windows8>
                     <left>120</left>
-                    <right>1</right>
-                    <top>1</top>
+                    <right>500</right>
+                    <top>5</top>
                     <bottom>1</bottom>
                     <unit>px</unit>
                 </windows8>

@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <application id="SiebelService" name="SiebelService">
-    <container displayname="Form" id="frmAppDescription" type="form"/>
     <container displayname="Form" id="frmLoginSucces" type="form"/>
     <container displayname="Form" id="frmActivity" type="form"/>
     <container displayname="Form" id="frmLoginSucces" type="form"/>
     <container displayname="Form" id="frmActivity" type="form"/>
+    <container displayname="Form" id="frmLoginSucces" type="form"/>
+    <container displayname="Form" id="frmActivity" type="form"/>
     <container displayname="Form" id="frmAppDescription" type="form"/>
+    <container displayname="Form" id="frmLoginSucces" type="form"/>
     <container displayname="Form" id="frmLogin" type="form">
         <component displayname="TextBox2" id="txbUName" type="textbox2"/>
         <component displayname="TextBox2" id="txbPassword" type="textbox2"/>
     </container>
-    <container displayname="Form" id="frmLoginSucces" type="form"/>
-    <container displayname="Form" id="frmLogin" type="form">
-        <component displayname="TextBox2" id="txbUName" type="textbox2"/>
-        <component displayname="TextBox2" id="txbPassword" type="textbox2"/>
-    </container>
     <container displayname="Form" id="frmActivity" type="form"/>
-    <container displayname="Form" id="frmActivityDetails" type="form"/>
     <container displayname="Form" id="frmAppDescription" type="form"/>
     <container displayname="Form" id="frmLogin" type="form">
         <component displayname="TextBox2" id="txbUName" type="textbox2"/>
@@ -28,8 +24,11 @@
         <component displayname="TextBox2" id="txbPassword" type="textbox2"/>
     </container>
     <container displayname="Form" id="frmActivity" type="form"/>
-    <container displayname="Form" id="frmLoginSucces" type="form"/>
-    <container displayname="Form" id="frmActivity" type="form"/>
+    <container displayname="Form" id="frmAppDescription" type="form"/>
+    <container displayname="Form" id="frmLogin" type="form">
+        <component displayname="TextBox2" id="txbUName" type="textbox2"/>
+        <component displayname="TextBox2" id="txbPassword" type="textbox2"/>
+    </container>
     <container displayname="Form" id="frmLoginSucces" type="form"/>
     <container displayname="Form" id="frmLogin" type="form">
         <component displayname="TextBox2" id="txbUName" type="textbox2"/>
